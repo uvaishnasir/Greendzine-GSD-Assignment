@@ -113,4 +113,8 @@ button {
   .login-box h2 {
     display: none;
   }
+  .reg-button,
+  .reg-input {
+    margin: 15px 0;
+  }
 }

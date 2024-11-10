@@ -1,12 +1,19 @@
 import React from "react";
-// import { Line } from "react-chartjs-2";
-// import dashboardData from "../data/dashboardData.json";
 import "../styles/Dashboard.css";
 
 const Dashboard = () => {
+  //handleLogout
+  const handleLogout = () => {
+    // Redirect the user to the login page
+    window.location.href = "/";
+  };
   return (
     <div className="dashboard-container">
       <h2>Overview</h2>
+      <button onClick={handleLogout}>Logout</button>
+      <div className="copyright">
+        &copy; 2022 Your Company. All rights reserved.
+      </div>
     </div>
   );
 };
