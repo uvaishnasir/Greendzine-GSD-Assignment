@@ -9,9 +9,6 @@ import loans from "../assets/Artboard-icons/loan 1.png";
 import services from "../assets/Artboard-icons/service 1.png";
 import privileges from "../assets/Artboard-icons/econometrics 1.png";
 import setting from "../assets/Artboard-icons/settings solid 1.png";
-import card1 from "../assets/card1.webp";
-import card2 from "../assets/card2.jpg";
-import transaction from "../assets/transaction1.png";
 import dashLogo from "../assets/Artboard-icons/iconfinder_vector_65_09_473792 1.png";
 const Dashboard = () => {
   return (
@@ -68,32 +65,9 @@ const Dashboard = () => {
 
       {/* Main Content */}
       <div className="main-content">
-        <header className="header">
-          <span>Overview</span>
-          <div className="search-bar">Search bar</div>
-          <div className="right">{/* Add icons or other elements here */}</div>
-        </header>
+        <header className="header"></header>
 
         {/* Content Section */}
-        <section className="content">
-          {/* Add main dashboard content here */}
-          <div className="container">
-            <div className="my-cards">
-              <div className="header">
-                <h2>My Cards</h2>
-              </div>
-              <div className="card-images">
-                <img src={card1} alt="Card 1" />
-                <img src={card2} alt="Card 2" />
-              </div>
-            </div>
-
-            <div className="recent-transaction">
-              <h2>Recent Transaction</h2>
-              <img src={transaction} alt="Transaction" />
-            </div>
-          </div>
-        </section>
       </div>
     </div>
   );
