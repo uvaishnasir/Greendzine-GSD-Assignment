@@ -23,8 +23,8 @@ const Dashboard = () => {
           BankDash.
         </div>
         <ul className="sidebar-menu">
-          <li className="dashboard" >
-            <img  src={dashboard} alt="Dashboard Icon" className="menu-icon" />
+          <li className="dashboard">
+            <img src={dashboard} alt="Dashboard Icon" className="menu-icon" />
             Dashboard
           </li>
           <li>
@@ -81,9 +81,6 @@ const Dashboard = () => {
             <div className="my-cards">
               <div className="header">
                 <h2>My Cards</h2>
-                <a href="#" className="see-all">
-                  See All
-                </a>
               </div>
               <div className="card-images">
                 <img src={card1} alt="Card 1" />
